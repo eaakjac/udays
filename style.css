@@ -8,6 +8,10 @@ body {
 }
 
 
+.baggrundsbillede {
+    background-size: contain;
+}
+
 
 /* Extra small devices (phones, 600px and down) KUN HELT SPECIFIKT FOR MOBIL SOM IKKE KAN STÅ HEROVER */
 @media only screen and (max-width: 600px) {}
