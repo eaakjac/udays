@@ -18,7 +18,6 @@
         <nav></nav>
     </header>
 
-
     <img class="baggrundsbillede2" src="images/eaaa_outside_12.png" alt="udenfor">
     <a href="index.html"><img id="pilop2" src="images/pil_roed.png" alt="Pilop"></a>
 
@@ -26,11 +25,17 @@
     <img id="mand1" src="images/velkomst_dude_02_h%C3%B8jre.png" alt="mand2">
 
 
-
-
+    <!-- taget fra http://techfunda.com/howto/937/background-audio -->
+    <audio src="out.wav" id="audio1" autoplay loop>
+    </audio>
+    <div id="control">
+        <input type="button" id="btnPause" onclick="PausePlay()" style="padding:20px;" value="Pause" />
+    </div>
     <footer>
         <img class="kontaktikon" src="images/kontakt-btn.png" alt="kontaktikon">
     </footer>
     <script src="mitscript.js"></script>
     <script src="js/dialogbokse.js"></script>
-</body></html>
+</body>
+
+</html>

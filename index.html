@@ -18,9 +18,10 @@
         <nav></nav>
     </header>
 
-
     <img class="baggrundsbillede2" src="images/indenfor.png" alt="indenfor">
+
     <img id="pilop" src="images/pil_roed.png" alt="Pilop">
+
     <img id="pilned" src="images/pil_roed_ned.png" alt="Pilned">
     <a href="udenfor.html"><img id="pilned-indgang" src="images/pil_roed_ned.png" alt="Pilned"></a>
     <img id="mand2" src="images/velkomst_dude_02.png" alt="mand2">
@@ -28,7 +29,16 @@
 
     <img class="kontaktikon" src="images/kontakt-btn.png" alt="kontaktikon">
 
+    <!-- taget fra http://techfunda.com/howto/937/background-audio -->
+    <audio src="inside.wav" id="audio1" autoplay loop>
+    </audio>
+    <div id="control">
+        <input type="button" id="btnPause" onclick="PausePlay()" style="padding:20px;" value="Pause" />
+    </div>
+
     <footer></footer>
     <script src="mitscript.js"></script>
     <script src="js/dialogbokse.js"></script>
-</body></html>
+</body>
+
+</html>
