@@ -9,6 +9,7 @@
     <!-- Husk unik title til alle hjemmesider-->
     <title></title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dialogbokse.css">
 
 </head>
 
@@ -29,12 +30,17 @@
     <!-- taget fra http://techfunda.com/howto/937/background-audio -->
     <audio src="out.wav" id="audio1" autoplay loop>
     </audio>
+
     <div id="control">
-        <input type="button" id="btnPause" onclick="PausePlay()" style="padding:20px;" value="Pause" />
+        <img src="images/mute-btn.png" id="btnPause" onclick="PausePlay()" style="padding:20px;" value="Pause" />
     </div>
+
     <footer>
         <img class="kontaktikon" src="images/kontakt-btn.png" alt="kontaktikon">
     </footer>
+
     <script src="mitscript.js"></script>
-    <script src="js/dialogbokse.js"></script>
-</body></html>
+    <script src="dialogbokse.js"></script>
+</body>
+
+</html>

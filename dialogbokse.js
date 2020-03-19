@@ -38,5 +38,8 @@ function dialog(hoejde, bredde, baggrundsfarve, fontfarve, placering, indhold, k
 
 // Hovedprogram
 
-const besked = "<H2>W E B D O C</H2><p><br>Du bliver nu taget med på en rejse gennem tre lande og tre storbyer.</p><p><br>God rejse!<br><br></p>";
-dialog("auto", "350px", "white", "black", "centrer", besked, false);
+document.getElementById("mand2").addEventListener("click", function () {
+    const besked = "<H2>W E B D O C</H2><p><br>Du bliver nu taget med på en rejse gennem tre lande og tre storbyer.</p><p><br>God rejse!<br><br></p>";
+
+    dialog("auto", "350px", "white", "black", "centrer", besked, false);
+})

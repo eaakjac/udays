@@ -54,12 +54,14 @@ body {
 
 #control {
     position: absolute;
-    top: 93.5%;
-    right: 8%;
-    width: 5%;
+    top: 92.5%;
+    right: 12%;
+    width: 11px;
 }
 
-
+#btnPause {
+    width: 300%;
+}
 
 /* STYLING TIL ELEMENTER INDENFOR I ENTRÉ */
 
