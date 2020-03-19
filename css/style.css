@@ -10,17 +10,15 @@ body {
 
 /* STYLING TIL ELEMENTER UNDENFOR */
 
-.baggrundsbillede2 {
-    width: 100%;
-    height: auto;
-    position: relative;
-}
+
 
 #pilop2 {
     position: absolute;
-    top: 93%;
+    top: 50%;
     right: 23%;
     width: 6%;
+    -webkit-animation: bounce-top 3s infinite alternate both;
+    animation: bounce-top 3s infinite alternate both;
 }
 
 
@@ -28,14 +26,17 @@ body {
 #mand1 {
     position: absolute;
     width: 14%;
-    top: 55%;
+    top: 25%;
     right: 65%;
 }
 
 
-
-
-
+.kontaktikon {
+    position: absolute;
+    top: 99%;
+    right: 3%;
+    width: 5%;
+}
 
 
 
@@ -54,31 +55,45 @@ body {
 
 .baggrundsbillede2 {
     width: 100%;
-    height: auto;
     position: relative;
 }
 
+
+
 #pilop {
     position: absolute;
-    top: 50%;
-    right: 73%;
+    top: 30%;
+    right: 74%;
     width: 5%;
+    -webkit-animation: bounce-top 3s infinite alternate both;
+    animation: bounce-top 3s infinite alternate both;
 }
 
 #pilned {
     position: absolute;
-    top: 55%;
+    top: 30%;
     right: 3%;
     width: 5%;
+    -webkit-animation: bounce-top 3s infinite alternate both;
+    animation: bounce-top 3s infinite alternate both;
+}
+
+#pilned-indgang {
+    position: absolute;
+    top: 43%;
+    right: 43%;
+    width: 3%;
 }
 
 #mand2 {
     position: absolute;
-    width: 10%;
-    top: 49%;
-    right: 29%;
+    width: 12%;
+    top: 22%;
+    right: 27%;
 }
 
+
+/* ANIMATION BOUNCING PILE */
 
 @-webkit-keyframes bounce-top {
     0% {
