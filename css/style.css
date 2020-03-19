@@ -21,14 +21,27 @@ body {
     animation: blink-2 4s 6s infinite both;
 }
 
-
-
-#mand1 {
+#elev1 {
     position: absolute;
-    width: 14%;
-    top: 47%;
-    right: 65%;
+    width: 7%;
+    top: 65%;
+    right: 49%;
 }
+
+#elev2 {
+    position: absolute;
+    width: 8%;
+    top: 65%;
+    right: 57%;
+}
+
+#elev3 {
+    position: absolute;
+    width: 8%;
+    top: 65%;
+    right: 37%;
+}
+
 
 
 .kontaktikon {
@@ -93,6 +106,47 @@ body {
     top: 42%;
     right: 27%;
 }
+
+
+/* STYLING TIL ELEMENTER KANTINE */
+
+
+#kantine {
+    width: 90%;
+    position: relative;
+}
+
+
+/* STYLING TIL ELEMENTER KLASSELOKALE */
+
+
+#klasselokale {
+    width: 100%;
+    position: relative;
+}
+
+#pilvenstre {
+    position: absolute;
+    top: 35%;
+    right: 95%;
+    width: 5%;
+}
+
+#mandklasselokale {
+    position: absolute;
+    width: 12%;
+    top: 37%;
+    right: 23%;
+}
+
+#pilvenstre {
+    position: absolute;
+    top: 35%;
+    right: 95%;
+    width: 5%;
+}
+
+
 
 
 
