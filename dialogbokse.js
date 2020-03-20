@@ -28,6 +28,39 @@ function dialog(hoejde, bredde, baggrundsfarve, fontfarve, placering, indhold, k
     } else if (placering === "top") {
         modalindhold.style.left = "0";
         modalindhold.style.top = "0";
+    } else if (placering === "udenfor1") {
+        modalindhold.style.left = "5%";
+        modalindhold.style.top = "10%";
+    } else if (placering === "udenfor2") {
+        modalindhold.style.left = "20%";
+        modalindhold.style.top = "20%";
+    } else if (placering === "udenfor3") {
+        modalindhold.style.left = "20%";
+        modalindhold.style.top = "20%";
+    } else if (placering === "indenfor1") {
+        modalindhold.style.left = "10%";
+        modalindhold.style.top = "10%";
+    } else if (placering === "indenfor2") {
+        modalindhold.style.left = "20%";
+        modalindhold.style.top = "20%";
+    } else if (placering === "indenfor3") {
+        modalindhold.style.left = "20%";
+        modalindhold.style.top = "20%";
+    } else if (placering === "klassevaerelse1") {
+        modalindhold.style.left = "10%";
+        modalindhold.style.top = "10%";
+    } else if (placering === "klassevaerelse2") {
+        modalindhold.style.left = "20%";
+        modalindhold.style.top = "20%";
+    } else if (placering === "klassevaerelse3") {
+        modalindhold.style.left = "20%";
+        modalindhold.style.top = "20%";
+    } else if (placering === "kantine1") {
+        modalindhold.style.left = "20%";
+        modalindhold.style.top = "20%";
+    } else if (placering === "kantine2") {
+        modalindhold.style.left = "20%";
+        modalindhold.style.top = "20%";
     }
 
     if (knapper) {

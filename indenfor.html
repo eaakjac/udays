@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Husk en beskrivelse "teaser" af siden i content, cirka 150 karakter max -->
+    <meta name="description" content="Hos Udays på Erhvervsakadamiet, kan du høre og se nærmere om de ting vi foretager os på Sønderhøj 130">
+    <!-- Husk unik title til alle hjemmesider-->
+    <title>Udays Entré</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dialogbokse.css">
+
+</head>
+
+<body>
+
+    <main>
+
+        <img class="baggrundsbillede2" src="images/indenfor.png" alt="indenfor">
+
+        <a href="lokale1.html"><img id="pilop" src="images/pil_roed.png" alt="Pilop"></a>
+
+        <a href="kantine.html"><img id="pilned" src="images/pil_roed_ned.png" alt="Pilned"></a>
+
+        <a href="index.html"><img id="pilned-indgang" src="images/pil_roed_ned.png" alt="Pilned"></a>
+
+        <img id="mand2" src="images/velkomst_dude_02.png" alt="mand2">
+
+    </main>
+
+    <footer>
+
+        <!-- taget fra http://techfunda.com/howto/937/background-audio -->
+        <audio src="inside.wav" id="audio1" autoplay loop>
+        </audio>
+
+        <div id="control">
+            <img src="images/mute-btn.png" id="btnPause" onclick="PausePlay()" style="padding:0px;" value="Pause" />
+        </div>
+
+        <img class="infoikon" id="infoikon_indenfor" src="images/info-btn.png" alt="infoikon">
+        <img class="kontaktikon" id="kontaktikon_indenfor" src="images/kontakt-btn.png" alt="kontaktikon">
+
+    </footer>
+    <script src="mitscript.js"></script>
+    <script src="dialogbokse.js"></script>
+
+    <script>
+        document.getElementById("mand2").addEventListener("click", function() {
+            const besked = '<H2>Velkommen indenfor</H2><p class="ptagmand">Her kan du se nærmere på de fantastiske faciliteter vi har på Sønderhøj 130 - Tryk på pilene for at se nærmere på enten kantinen eller et af vores klasseværelser.</p><p><br></p>';
+
+            dialog("300px", "550px", "white", "black", "indenfor1", besked, false);
+        })
+    </script>
+
+    <script>
+        document.getElementById("infoikon_indenfor").addEventListener("click", function() {
+            const besked = '<H2>Informationsboks</H2><p class="ptag"><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ante in nibh mauris cursus mattis molestie a iaculis at. Eget dolor morbi non arcu risus quis varius.<br><br></p>';
+
+            dialog("300px", "550px", "lightblue", "black", "indenfor2", besked, false);
+        })
+    </script>
+
+    <script>
+        document.getElementById("kontaktikon_indenfor").addEventListener("click", function() {
+            const besked = '<H2>Kontaktboks</H2><p class="ptag"><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ante in nibh mauris cursus mattis molestie a iaculis at. Eget dolor morbi non arcu risus quis varius.<br><br></p>';
+
+            dialog("300px", "550px", "lightgreen", "black", "indenfor3", besked, false);
+        })
+    </script>
+
+
+
+</body></html>

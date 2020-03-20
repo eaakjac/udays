@@ -43,7 +43,6 @@ body {
 }
 
 
-
 .kontaktikon {
     position: absolute;
     top: 95%;
@@ -58,6 +57,8 @@ body {
     width: 3.5%;
 }
 
+
+/* STYLING TIL LYDIKON */
 
 #control {
     position: absolute;
@@ -122,8 +123,16 @@ body {
 
 
 #kantine {
-    width: 90%;
+    width: 100%;
+    height: 768px;
     position: relative;
+}
+
+#pilvenstrekantine {
+    position: absolute;
+    top: 35%;
+    right: 90%;
+    width: 9%;
 }
 
 
@@ -133,27 +142,21 @@ body {
 #klasselokale {
     width: 100%;
     position: relative;
-}
-
-#pilvenstre {
-    position: absolute;
-    top: 35%;
-    right: 95%;
-    width: 5%;
+    height: 768px;
 }
 
 #mandklasselokale {
     position: absolute;
-    width: 12%;
-    top: 37%;
-    right: 23%;
+    width: 16%;
+    top: 43%;
+    right: 21%;
 }
 
 #pilvenstre {
     position: absolute;
-    top: 35%;
-    right: 95%;
-    width: 5%;
+    top: 45%;
+    right: 92%;
+    width: 8%;
 }
 
 
@@ -228,36 +231,4 @@ body {
     100% {
         opacity: 1;
     }
-}
-
-
-/* Til HOEVER EFFEKT */
-/* SKAL BARE SLETTES SÅFREMT VI IKKE SKAL BRUGE DET */
-
-.tooltip {
-    position: absolute;
-    display: inline-block;
-    border-bottom: 1px dotted black;
-}
-
-.tooltip .tooltiptext {
-    visibility: hidden;
-    width: 100px;
-    background-color: beige;
-    color: #fff;
-    text-align: center;
-    border-radius: 50px;
-    padding: 20px 0;
-    font-family: fantasy;
-    font-size: 50px;
-
-    /* Position the tooltip */
-    position: absolute;
-    z-index: 1;
-    top: -5px;
-    left: 50%;
-}
-
-.tooltip:hover .tooltiptext {
-    visibility: visible;
 }

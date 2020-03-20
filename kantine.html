@@ -5,9 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Husk en beskrivelse "teaser" af siden i content, cirka 150 karakter max -->
-    <meta name="description" content="">
+    <meta name="description" content="Her kan du opleve det store udvalg af den mad vi bliver serveret på Erhvervsakdamiet">
     <!-- Husk unik title til alle hjemmesider-->
-    <title></title>
+    <title>Kantine</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/dialogbokse.css">
 
@@ -19,17 +19,34 @@
 
         <img id="kantine" src="images/kantine.png" alt="kantine">
 
-        <a href="index.html"><img id="pilvenstre" src="images/pil_roed_venstre.png" alt="Pilvenstre"></a>
+        <a href="indenfor.html"><img id="pilvenstrekantine" src="images/pil_roed_venstre.png" alt="Pilvenstre"></a>
 
     </main>
 
     <footer>
 
-        <img class="infoikon" src="images/info-btn.png" alt="infoikon">
-        <img class="kontaktikon" src="images/kontakt-btn.png" alt="kontaktikon">
+        <img class="infoikon" id="infoikon_kantine" src="images/info-btn.png" alt="infoikon">
+        <img class="kontaktikon" id="kontaktikon_kantine" src="images/kontakt-btn.png" alt="kontaktikon">
 
     </footer>
 
     <script src="mitscript.js"></script>
     <script src="dialogbokse.js"></script>
+
+    <script>
+        document.getElementById("infoikon_kantine").addEventListener("click", function() {
+            const besked = '<H2>Informationsboks</H2><p class="ptag"><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ante in nibh mauris cursus mattis molestie a iaculis at. Eget dolor morbi non arcu risus quis varius.<br><br></p>';
+
+            dialog("300px", "550px", "lightblue", "black", "kantine1", besked, false);
+        })
+    </script>
+
+    <script>
+        document.getElementById("kontaktikon_kantine").addEventListener("click", function() {
+            const besked = '<H2>Kontaktboks</H2><p class="ptag"><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ante in nibh mauris cursus mattis molestie a iaculis at. Eget dolor morbi non arcu risus quis varius.<br><br></p>';
+
+            dialog("300px", "550px", "lightgreen", "black", "kantine2", besked, false);
+        })
+    </script>
+
 </body></html>
