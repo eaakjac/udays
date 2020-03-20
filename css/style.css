@@ -51,11 +51,18 @@ body {
     width: 5%;
 }
 
+.infoikon {
+    position: absolute;
+    top: 95%;
+    right: 8%;
+    width: 3.5%;
+}
+
 
 #control {
     position: absolute;
     top: 92.5%;
-    right: 12%;
+    right: 17%;
     width: 11px;
 }
 
