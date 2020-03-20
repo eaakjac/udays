@@ -54,16 +54,17 @@ body {
 .infoikon {
     position: absolute;
     top: 95%;
-    right: 8%;
+    right: 7.5%;
     width: 3.5%;
 }
 
 
 #control {
     position: absolute;
-    top: 92.5%;
-    right: 17%;
-    width: 11px;
+    top: 95%;
+    right: 14.5%;
+    width: 12px;
+    padding: 0;
 }
 
 #btnPause {

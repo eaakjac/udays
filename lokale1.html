@@ -15,15 +15,15 @@
 
 <body>
 
-    <header>
-        <nav></nav>
-    </header>
+    <main>
 
-    <img id="klasselokale" src="images/klasselokale.png" alt="klasselokale">
+        <img id="klasselokale" src="images/klasselokale.png" alt="klasselokale">
 
-    <img id="mandklasselokale" src="images/velkomst_dude_02.png" alt="mandklasselokale">
+        <img id="mandklasselokale" src="images/velkomst_dude_02.png" alt="mandklasselokale">
 
-    <a href="index.html"><img id="pilvenstre" src="images/pil_roed_venstre.png" alt="Pilvenstre"></a>
+        <a href="index.html"><img id="pilvenstre" src="images/pil_roed_venstre.png" alt="Pilvenstre"></a>
+
+    </main>
 
     <footer>
 
@@ -34,4 +34,17 @@
     <script src="mitscript.js"></script>
     <script src="dialogbokse.js"></script>
 
-</body></html>
+    <script>
+        document.getElementById("mandklasselokale").addEventListener("click", function() {
+            const besked = "<H2>Hej igen!</H2><p><br>Dette er prototype, hvor du ellers vil have mulighed for at trykke på forskellige elementer, der vil vise de ting vi arbejder med som multimediedesignere</p><p><br>Har du brug for hjælp, så trykker du blot på infoikonet i bunden af siden<br><br></p>";
+
+            dialog("300", "550px", "white", "black", "centrer", besked, false);
+        })
+
+    </script>
+
+
+
+</body>
+
+</html>

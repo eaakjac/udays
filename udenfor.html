@@ -15,29 +15,30 @@
 
 <body>
 
-    <header>
-        <nav></nav>
-    </header>
+    <main>
 
-    <img class="baggrundsbillede2" src="images/eaaa_outside_12.png" alt="udenfor">
-    <a href="index.html"><img id="pilop2" src="images/pil_roed.png" alt="Pilop"></a>
+        <img class="baggrundsbillede2" src="images/eaaa_outside_12.png" alt="udenfor">
+        <a href="index.html"><img id="pilop2" src="images/pil_roed.png" alt="Pilop"></a>
 
 
-    <img id="elev1" src="images/elev_1.png" alt="elev1">
-    <img id="elev2" src="images/elev_2.png" alt="elev2">
-    <img id="elev3" src="images/elev_3.png" alt="elev3">
+        <img id="elev1" src="images/elev_1.png" alt="elev1">
+        <img id="elev2" src="images/elev_2.png" alt="elev2">
+        <img id="elev3" src="images/elev_3.png" alt="elev3">
 
-    <!-- taget fra http://techfunda.com/howto/937/background-audio -->
-    <audio src="out.wav" id="audio1" autoplay loop>
-    </audio>
+        <!-- taget fra http://techfunda.com/howto/937/background-audio -->
+        <audio src="out.wav" id="audio1" autoplay loop>
+        </audio>
+
+    </main>
 
 
 
     <footer>
 
         <div id="control">
-            <img src="images/mute-btn.png" id="btnPause" onclick="PausePlay()" style="padding:20px;" value="Pause" />
+            <img src="images/mute-btn.png" id="btnPause" onclick="PausePlay()" style="padding:0px;" value="Pause" />
         </div>
+
         <img class="infoikon" src="images/info-btn.png" alt="infoikon">
         <img class="kontaktikon" src="images/kontakt-btn.png" alt="kontaktikon">
 
@@ -45,5 +46,13 @@
 
     <script src="mitscript.js"></script>
     <script src="dialogbokse.js"></script>
+
+    <script>
+        document.getElementById("elev2").addEventListener("click", function() {
+            const besked = "<H2>Velkommen til Multimediedesign uddannelsen</H2><p><br>Underoverskrift</p><p><br>Følg med indenfor og oplev de spædnende faciliteter og mennesker, der til dagligt studere og arbejder på Ringvej Syd 104<br><br>Tryk på pilen for at komme med indenfor</p>";
+
+            dialog("300px", "550px", "white", "black", "centrer", besked, false);
+        })
+    </script>
 
 </body></html>

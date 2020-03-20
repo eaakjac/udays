@@ -15,20 +15,19 @@
 
 <body>
 
-    <header>
-        <nav></nav>
-    </header>
+    <main>
 
-    <img class="baggrundsbillede2" src="images/indenfor.png" alt="indenfor">
+        <img class="baggrundsbillede2" src="images/indenfor.png" alt="indenfor">
 
-    <a href="lokale1.html"><img id="pilop" src="images/pil_roed.png" alt="Pilop"></a>
+        <a href="lokale1.html"><img id="pilop" src="images/pil_roed.png" alt="Pilop"></a>
 
-    <a href="kantine.html"><img id="pilned" src="images/pil_roed_ned.png" alt="Pilned"></a>
+        <a href="kantine.html"><img id="pilned" src="images/pil_roed_ned.png" alt="Pilned"></a>
 
-    <a href="udenfor.html"><img id="pilned-indgang" src="images/pil_roed_ned.png" alt="Pilned"></a>
+        <a href="udenfor.html"><img id="pilned-indgang" src="images/pil_roed_ned.png" alt="Pilned"></a>
 
-    <img id="mand2" src="images/velkomst_dude_02.png" alt="mand2">
+        <img id="mand2" src="images/velkomst_dude_02.png" alt="mand2">
 
+    </main>
 
     <footer>
 
@@ -36,7 +35,7 @@
         <audio src="inside.wav" id="audio1" autoplay loop>
         </audio>
         <div id="control">
-            <img src="images/mute-btn.png" id="btnPause" onclick="PausePlay()" style="padding:20px;" value="Pause" />
+            <img src="images/mute-btn.png" id="btnPause" onclick="PausePlay()" style="padding:0px;" value="Pause" />
         </div>
 
         <img class="infoikon" src="images/info-btn.png" alt="infoikon">
@@ -45,4 +44,21 @@
     </footer>
     <script src="mitscript.js"></script>
     <script src="dialogbokse.js"></script>
+
+    <script>
+        document.getElementById("mand2").addEventListener("click", function() {
+            const besked = "<H2>Velkommen indenfor</H2><p><br>Her kan du se nærmere på de fantastiske faciliteter vi har på Sønderhøj 106 - Tryk på pilene for at se nærmere på enten kantinen eller et af vores klasseværelser.</p><p><br>Har du brug for hjælp, så trykker du blot på infoikonet i bunden af siden<br><br></p>";
+
+            dialog("300px", "550px", "white", "black", "centrer", besked, false);
+        })
+    </script>
+
+    <script>
+        document.getElementById("infoikon").addEventListener("click", function() {
+            const besked = "<H2>Velkommen indenfor</H2><p><br>Her kan du se nærmere på de fantastiske faciliteter vi har på Sønderhøj 106 - Tryk på pilene for at se nærmere på enten kantinen eller et af vores klasseværelser.</p><p><br>Har du brug for hjælp, så trykker du blot på infoikonet i bunden af siden<br><br></p>";
+
+            dialog("300px", "550px", "white", "black", "centrer", besked, false);
+        })
+    </script>
+
 </body></html>
