@@ -1,3 +1,5 @@
+// JS TIL DIALOGBOKS INDENFOR I ENTRÉ
+
 function dialog(hoejde, bredde, baggrundsfarve, fontfarve, placering, indhold, knapper) {
 
     const htmlkrop = document.body;
@@ -39,7 +41,16 @@ function dialog(hoejde, bredde, baggrundsfarve, fontfarve, placering, indhold, k
 // Hovedprogram
 
 document.getElementById("mand2").addEventListener("click", function () {
-    const besked = "<H2>W E B D O C</H2><p><br>Du bliver nu taget med på en rejse gennem tre lande og tre storbyer.</p><p><br>God rejse!<br><br></p>";
+    const besked = "<H2>Velkommen indenfor</H2><p><br>Her kan du se nærmere på de fantastiske faciliteter vi har på Sønderhøj 106 - Tryk på pilene for at se nærmere på enten kantinen eller et af vores klasseværelser.</p><p><br>Har du brug for hjælp, så trykker du blot på infoikonet i bunden af siden<br><br></p>";
 
     dialog("auto", "350px", "white", "black", "centrer", besked, false);
 })
+
+document.getElementById("mandklasselokale").addEventListener("click", function () {
+    const besked = "<H2>Velkommen til vores bygning</H2><p><br>Hej og velkommen til MDU.</p><p><br>Har du brug for hjælp, så trykker du blot på infoikonet i bunden af siden<br><br></p>";
+
+    dialog("auto", "350px", "white", "black", "centrer", besked, false);
+})
+
+
+// JS TIL DIALOGBOKS TIL MAND UDENFOR
