@@ -5,11 +5,30 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Dosis', sans-serif, 'Amatic SC', cursive;
 }
 
 
 /* STYLING TIL ELEMENTER UNDENFOR */
 
+
+h1 {
+    position: absolute;
+    color: white;
+    top: 2%;
+    left: 31%;
+    font-size: 50px;
+    font-family: 'Amatic SC';
+}
+
+h2 {
+    position: absolute;
+    color: white;
+    top: 12%;
+    left: 40%;
+    font-size: 25px;
+    font-family: 'Amatic SC';
+}
 
 
 #pilop2 {
@@ -33,6 +52,8 @@ body {
     width: 8%;
     top: 65%;
     right: 57%;
+    -webkit-animation: heartbeat 7s ease-in-out 5s infinite both;
+    animation: heartbeat 7s ease-in-out 5s infinite both;
 }
 
 #elev3 {
@@ -116,6 +137,8 @@ body {
     width: 12%;
     top: 42%;
     right: 27%;
+    -webkit-animation: heartbeat 7s ease-in-out 5s infinite both;
+    animation: heartbeat 7s ease-in-out 5s infinite both;
 }
 
 
@@ -147,9 +170,11 @@ body {
 
 #mandklasselokale {
     position: absolute;
-    width: 16%;
+    width: 14%;
     top: 43%;
-    right: 21%;
+    right: 19%;
+    -webkit-animation: heartbeat 7s ease-in-out 5s infinite both;
+    animation: heartbeat 7s ease-in-out 5s infinite both;
 }
 
 #pilvenstre {
@@ -158,6 +183,97 @@ body {
     right: 92%;
     width: 8%;
 }
+
+
+
+
+
+/* ANIMATION TIL PERSONER */
+
+
+.heartbeat {
+    -webkit-animation: heartbeat 7s ease-in-out 5s infinite both;
+    animation: heartbeat 7s ease-in-out 5s infinite both;
+}
+
+@-webkit-keyframes heartbeat {
+    from {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transform-origin: center center;
+        transform-origin: center center;
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    10% {
+        -webkit-transform: scale(0.91);
+        transform: scale(0.91);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    17% {
+        -webkit-transform: scale(0.98);
+        transform: scale(0.98);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    33% {
+        -webkit-transform: scale(0.87);
+        transform: scale(0.87);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    45% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+}
+
+@keyframes heartbeat {
+    from {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transform-origin: center center;
+        transform-origin: center center;
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    10% {
+        -webkit-transform: scale(0.91);
+        transform: scale(0.91);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    17% {
+        -webkit-transform: scale(0.98);
+        transform: scale(0.98);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    33% {
+        -webkit-transform: scale(0.87);
+        transform: scale(0.87);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    45% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+}
+
 
 
 

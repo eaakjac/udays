@@ -10,6 +10,8 @@
     <title>Velkommen til Udays</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/dialogbokse.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Dosis&display=swap" rel="stylesheet">
 
 </head>
 
@@ -20,6 +22,9 @@
         <img class="baggrundsbillede2" src="images/eaaa_outside_12.png" alt="udenfor">
         <a href="indenfor.html"><img id="pilop2" src="images/pil_roed.png" alt="Pilop"></a>
 
+        <h1>Velkommen til Multimediedesign uddannelsen</h1>
+
+        <h2>I dette spil kan du se nærmere på de ting, vi laver på MDU</h2>
 
         <img id="elev1" src="images/elev_1.png" alt="elev1">
         <img id="elev2" src="images/elev_2.png" alt="elev2">
@@ -49,30 +54,26 @@
 
     <script>
         document.getElementById("elev2").addEventListener("click", function() {
-            const besked = '<H2>Velkommen til Multimediedesign uddannelsen</H2><p class="ptagmand">Her på Ringvej Syd 104 holder vi multimediedesigner til og vi vil rigtig gerne vise jer hvordan det er her på MDU!<br><br>Tryk på pilen for at komme med indenfor</p>';
+            const besked = '<H3>Velkommen til Multimediedesign uddannelsen</H3><p class="ptagmand">Her på Ringvej Syd 104 holder vi multimediedesigner til og vi vil rigtig gerne vise jer hvordan det er her på MDU!<br><br>Tryk på pilen for at komme med indenfor</p>';
 
             dialog("300px", "550px", "white", "black", "udenfor1", besked, false);
         })
-
     </script>
+
     <script>
         document.getElementById("infoikon_udenfor").addEventListener("click", function() {
-            const besked = '<H2>Informationsboks</H2><p class="ptag"><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ante in nibh mauris cursus mattis molestie a iaculis at. Eget dolor morbi non arcu risus quis varius.<br><br></p>';
+            const besked = '<H3>Informationsboks</H3><p class="ptag"><br>Dette er "Guldtanden" som er beliggende på Ringvej Syd 104, som ligger få 100 meter fra Sønderhøj 30.<br><br></p>';
 
             dialog("300px", "550px", "lightblue", "black", "udenfor2", besked, false);
         })
-
     </script>
 
     <script>
         document.getElementById("kontaktikon_udenfor").addEventListener("click", function() {
-            const besked = '<H2>Kontaktboks</H2><p class="ptag"><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ante in nibh mauris cursus mattis molestie a iaculis at. Eget dolor morbi non arcu risus quis varius.<br><br></p>';
+            const besked = '<H3>Kontaktboks</H3><p class="ptag">Skulle du have flere uddybende spørgsmål, kan vi kontaktes på nedenstående<br><br>Email: vejledning@eaaa.dk<br><br>Tlf. 72 28 60 20<br></p>';
 
-            dialog("300px", "550px", "white", "black", "udenfor3", besked, false);
+            dialog("300px", "550px", "lightblue", "black", "udenfor3", besked, false);
         })
-
     </script>
 
-</body>
-
-</html>
+</body></html>

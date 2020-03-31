@@ -50,11 +50,11 @@ function dialog(hoejde, bredde, baggrundsfarve, fontfarve, placering, indhold, k
         modalindhold.style.left = "10%";
         modalindhold.style.top = "10%";
     } else if (placering === "klassevaerelse2") {
-        modalindhold.style.left = "20%";
-        modalindhold.style.top = "20%";
+        modalindhold.style.left = "10%";
+        modalindhold.style.top = "10%";
     } else if (placering === "klassevaerelse3") {
-        modalindhold.style.left = "20%";
-        modalindhold.style.top = "20%";
+        modalindhold.style.left = "10%";
+        modalindhold.style.top = "10%";
     } else if (placering === "kantine1") {
         modalindhold.style.left = "20%";
         modalindhold.style.top = "20%";

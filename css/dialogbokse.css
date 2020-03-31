@@ -45,14 +45,21 @@
 .ptagmand {
     font-size: 20px;
     text-align: center;
+    color: black;
 }
 
 
 .ptag {
     font-size: 20px;
+    text-align: center;
 }
 
 h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+h3 {
     font-size: 30px;
     text-align: center;
 }

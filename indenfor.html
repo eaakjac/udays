@@ -43,12 +43,13 @@
         <img class="kontaktikon" id="kontaktikon_indenfor" src="images/kontakt-btn.png" alt="kontaktikon">
 
     </footer>
+
     <script src="mitscript.js"></script>
     <script src="dialogbokse.js"></script>
 
     <script>
         document.getElementById("mand2").addEventListener("click", function() {
-            const besked = '<H2>Velkommen indenfor</H2><p class="ptagmand">Her kan du se nærmere på de fantastiske faciliteter vi har på Sønderhøj 130 - Tryk på pilene for at se nærmere på enten kantinen eller et af vores klasseværelser.</p><p><br></p>';
+            const besked = '<H3>Velkommen indenfor</H3><p class="ptagmand">Her kan du se nærmere på de fantastiske faciliteter vi har på Ringvej Syd 104 - Tryk på pilene for at se nærmere på enten kantinen eller et af de steder vi sidder og fordyber os i vores projekter.</p><p><br></p>';
 
             dialog("300px", "550px", "white", "black", "indenfor1", besked, false);
         })
@@ -56,7 +57,7 @@
 
     <script>
         document.getElementById("infoikon_indenfor").addEventListener("click", function() {
-            const besked = '<H2>Informationsboks</H2><p class="ptag"><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ante in nibh mauris cursus mattis molestie a iaculis at. Eget dolor morbi non arcu risus quis varius.<br><br></p>';
+            const besked = '<H3>Informationsboks</H3><p class="ptag"><br>Dette er skolens entré, hvor du har mulighed for at læse nærmere om informationer fra skolen, workshops i løbet af ugen eller bare hvad der står på menuen i kantinen<br><br></p>';
 
             dialog("300px", "550px", "lightblue", "black", "indenfor2", besked, false);
         })
@@ -64,9 +65,9 @@
 
     <script>
         document.getElementById("kontaktikon_indenfor").addEventListener("click", function() {
-            const besked = '<H2>Kontaktboks</H2><p class="ptag"><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ante in nibh mauris cursus mattis molestie a iaculis at. Eget dolor morbi non arcu risus quis varius.<br><br></p>';
+            const besked = '<H3>Kontaktboks</H3><p class="ptag">Skulle du have flere uddybende spørgsmål, kan vi kontaktes på nedenstående<br><br>Email: vejledning@eaaa.dk<br><br>Tlf. 72 28 60 20<br></p>';
 
-            dialog("300px", "550px", "lightgreen", "black", "indenfor3", besked, false);
+            dialog("300px", "550px", "lightblue", "black", "indenfor3", besked, false);
         })
     </script>
 
