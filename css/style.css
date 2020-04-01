@@ -142,6 +142,15 @@ h2 {
 }
 
 
+.tidspunkt {
+    color: white;
+    font-size: 0.5em;
+    position: absolute;
+    top: 26%;
+    left: 51%;
+}
+
+
 /* STYLING TIL ELEMENTER KANTINE */
 
 
